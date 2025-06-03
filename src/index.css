@@ -91,8 +91,16 @@
     @apply status-badge bg-accent/10 text-orange-700 border border-accent/20;
   }
   
-  .syntax-highlight {
+.syntax-highlight {
     @apply bg-slate-900 text-slate-100 p-4 rounded-lg font-mono text-sm overflow-x-auto;
+  }
+
+  .monaco-editor-container {
+    @apply border border-slate-200 rounded-xl overflow-hidden;
+  }
+
+  .monaco-editor-dark {
+    @apply border-slate-700;
   }
 }
 

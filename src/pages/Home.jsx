@@ -229,7 +229,10 @@ export default function Home() {
               </h3>
               
               <div className="space-y-3">
-                <button className="w-full flex items-center p-3 text-left hover:bg-slate-50/50 rounded-xl transition-all duration-200">
+<button 
+                  onClick={() => window.location.href = '/editor'}
+                  className="w-full flex items-center p-3 text-left hover:bg-slate-50/50 rounded-xl transition-all duration-200"
+                >
                   <ApperIcon name="Upload" className="w-5 h-5 text-slate-500 mr-3" />
                   <div>
                     <p className="font-medium text-slate-700">Upload Test Script</p>
