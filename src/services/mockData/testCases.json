@@ -1,0 +1,223 @@
+[
+  {
+    "id": "1",
+    "name": "Login Flow Test",
+    "type": "login",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?login,authentication",
+    "logs": [
+      "Navigating to login page",
+      "Locating username field",
+      "Entering test credentials",
+      "Clicking login button",
+      "✅ Login successful - redirected to dashboard"
+    ],
+    "duration": 2340
+  },
+  {
+    "id": "2",
+    "name": "Main Navigation Test",
+    "type": "navigation",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?navigation,menu",
+    "logs": [
+      "Analyzing navigation structure",
+      "Testing menu item clicks",
+      "Verifying page transitions",
+      "Checking breadcrumb navigation",
+      "✅ All navigation paths working correctly"
+    ],
+    "duration": 1890
+  },
+  {
+    "id": "3",
+    "name": "Contact Form Submission",
+    "type": "forms",
+    "status": "fail",
+    "screenshot": "https://images.unsplash.com/800x600/?form,contact",
+    "logs": [
+      "Locating contact form",
+      "Filling required fields",
+      "Attempting form submission",
+      "❌ Form validation error - email field not accepting valid format"
+    ],
+    "duration": 1560
+  },
+  {
+    "id": "4",
+    "name": "Broken Links Detection",
+    "type": "links",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?links,website",
+    "logs": [
+      "Scanning page for links",
+      "Found 47 internal links, 12 external links",
+      "Testing HTTP response codes",
+      "Checking for 404 errors",
+      "✅ All links returning valid responses"
+    ],
+    "duration": 3420
+  },
+  {
+    "id": "5",
+    "name": "Product Search Function",
+    "type": "forms",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?search,ecommerce",
+    "logs": [
+      "Testing search functionality",
+      "Entering product keywords",
+      "Validating search results",
+      "Checking result sorting options",
+      "✅ Search working correctly with relevant results"
+    ],
+    "duration": 2180
+  },
+  {
+    "id": "6",
+    "name": "User Registration Process",
+    "type": "login",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?registration,signup",
+    "logs": [
+      "Accessing registration page",
+      "Filling registration form",
+      "Testing password validation",
+      "Submitting registration",
+      "✅ Account created successfully"
+    ],
+    "duration": 2890
+  },
+  {
+    "id": "7",
+    "name": "Header Navigation Test",
+    "type": "navigation",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?header,navigation",
+    "logs": [
+      "Testing header menu items",
+      "Checking dropdown menus",
+      "Verifying logo link to homepage",
+      "Testing mobile menu toggle",
+      "✅ Header navigation fully functional"
+    ],
+    "duration": 1650
+  },
+  {
+    "id": "8",
+    "name": "Newsletter Signup Form",
+    "type": "forms",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?newsletter,email",
+    "logs": [
+      "Locating newsletter signup form",
+      "Testing email validation",
+      "Submitting valid email address",
+      "Checking confirmation message",
+      "✅ Newsletter signup working correctly"
+    ],
+    "duration": 1320
+  },
+  {
+    "id": "9",
+    "name": "Footer Links Validation",
+    "type": "links",
+    "status": "fail",
+    "screenshot": "https://images.unsplash.com/800x600/?footer,links",
+    "logs": [
+      "Scanning footer for links",
+      "Testing privacy policy link",
+      "Testing terms of service link",
+      "❌ Social media link returning 404 error"
+    ],
+    "duration": 980
+  },
+  {
+    "id": "10",
+    "name": "Page Load Performance",
+    "type": "navigation",
+    "status": "fail",
+    "screenshot": "https://images.unsplash.com/800x600/?performance,loading",
+    "logs": [
+      "Measuring page load times",
+      "Analyzing resource loading",
+      "❌ Page load time exceeds 5 seconds - optimization needed"
+    ],
+    "duration": 5240
+  },
+  {
+    "id": "11",
+    "name": "Comment Form Test",
+    "type": "forms",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?comments,blog",
+    "logs": [
+      "Testing blog comment functionality",
+      "Filling comment form fields",
+      "Testing spam protection",
+      "Submitting test comment",
+      "✅ Comment posted successfully"
+    ],
+    "duration": 2100
+  },
+  {
+    "id": "12",
+    "name": "Category Navigation",
+    "type": "navigation",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?categories,blog",
+    "logs": [
+      "Testing blog category navigation",
+      "Clicking category filters",
+      "Verifying filtered results",
+      "Testing pagination",
+      "✅ Category navigation working properly"
+    ],
+    "duration": 1780
+  },
+  {
+    "id": "13",
+    "name": "Archive Links Test",
+    "type": "links",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?archive,blog",
+    "logs": [
+      "Testing archive page links",
+      "Checking monthly archive navigation",
+      "Verifying post links in archives",
+      "Testing year-based navigation",
+      "✅ All archive links functional"
+    ],
+    "duration": 1450
+  },
+  {
+    "id": "14",
+    "name": "Search Form Validation",
+    "type": "forms",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?search,blog",
+    "logs": [
+      "Testing blog search functionality",
+      "Entering search queries",
+      "Validating search results accuracy",
+      "Testing empty search handling",
+      "✅ Search form working correctly"
+    ],
+    "duration": 1690
+  },
+  {
+    "id": "15",
+    "name": "Dashboard Login",
+    "type": "login",
+    "status": "pass",
+    "screenshot": "https://images.unsplash.com/800x600/?dashboard,login",
+    "logs": [
+      "Accessing SaaS dashboard login",
+      "Testing authentication flow",
+      "Verifying session management",
+      "Checking logout functionality",
+      "✅ Dashboard authentication working"
+    ],
+    "duration": 2450
+  }
+]
